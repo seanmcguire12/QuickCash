@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">QuickCash</string>
+    <string name="welcome_title">Welcome to Quick Cash</string>
+    <string name="toast_missing_component">Please enter data in all the fields!</string>
+    <string name="toast_invalid_email">Please enter a valid email address!</string>
+    <string name="toast_invalid_password">Password: at least 1 digit, 1 uppercase, 1 lowercase,and 1 special character!</string>
+    <string name="toast_password_mismatch">Passwords do not match!</string>
+    <string name="toast_invalid_phone">Please enter a valid phone number!</string>
+    <string name="toast_invalid_email_and_or_password">Invalid Email and/or Password, please try again.</string>
+    <string name="toast_login_successful">Login Successful.  Redirecting to Home Page.</string>
+    <string name="title_activity_job_form">JobFormActivity</string>
+    <string name="title_activity_available_jobs">AvailableJobsActivity</string>
+    <string name="toast_no_preference_found">No Preferences Found for your Account</string>
+    <string name="duration_pay_rate_numeric">Please make sure duration and pay rate are numeric (dot allowed)</string>
+    <string name="job_posted_successfully">Your job has been posted!</string>
+    <string name="job_id_exists">Job ID already exists</string>
+    <string name="no_job_found">No Jobs found</string>
+    <string name="job_found">Jobs Available</string>
+    <string name="title_activity_job">Leanback JobActivity</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+</resources>

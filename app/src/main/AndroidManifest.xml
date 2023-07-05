@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ca.dal.csci3130.quickcash">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+<!--    <uses-feature-->
+<!--        android:name="android.hardware.touchscreen"-->
+<!--        android:required="false" />-->
+<!--    <uses-feature-->
+<!--        android:name="android.software.leanback"-->
+<!--        android:required="true" />-->
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuickCash">
+        <activity
+            android:name=".jobmanagement.JobAdActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".usermanagement.PreferenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".jobmanagement.AvailableJobsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_available_jobs" />
+        <activity
+            android:name=".jobmanagement.JobFormActivity"
+            android:exported="false"
+            android:label="@string/title_activity_job_form" />
+        <activity
+            android:name=".home.EmployerHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.EmployeeHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usermanagement.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usermanagement.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
